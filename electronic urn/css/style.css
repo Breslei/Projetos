@@ -1,0 +1,296 @@
+
+.quadrado{
+	margin: 2%;
+	background-color: white;
+	width: 90%;
+	height: 600px;
+	border: 5px gray outset;
+	margin-left: 3%;
+	margin-right: 5%;
+	margin-top: 1%;
+	padding-top: 0px;
+	padding-left: 0px;
+    display:inline-flex ;
+}
+
+.display{
+ 	margin: 0;
+	background-color: #8AFFB1;
+	width: 45%;
+	height: 94%	;
+	border: 5px black solid;
+	margin: 1%;
+ }
+
+.photoCanditade{
+	border: 3px black solid;
+	width: 186px;
+	height: 186px;
+	margin-top: 150px;
+	margin-left: 63%;
+}
+
+.displayPresident{
+	margin-left: 2.5%;
+}
+
+#textPresident{
+	text-align: left;
+	font-size: 24pt;
+	font-family: lato;
+	margin-top: -330px;
+ }
+
+#labelPresident{
+	text-align: left;
+	font-size: 36pt;
+	font-family: lato;
+	margin-left: 20%;
+}
+
+.president{
+	text-align: left;
+	font-size: 24pt;
+	font-family: lato;
+}
+
+#labelNamePresident{
+	display: absolute;	
+	margin-top: -10px;
+	padding-bottom: 10px;
+}
+
+#NamePresident{
+	display: absolute;
+	margin-top: -66px;
+	margin-left: 100px;
+	font-size: 20pt;
+	font-family: lato;
+	margin-bottom: -12%
+}
+
+#labelPartyPresident{
+	display: absolute;
+	text-align: left;
+	font-size: 24pt;
+	font-family: lato;
+	margin-top: 15%;
+}
+
+#PartyPresident{
+	margin-top: -55px;
+	margin-left: 117px;
+	font-size: 20pt;
+	font-family: lato;
+	padding-bottom: -15%
+}
+
+.digitNumber{
+	display: inline-flex;
+	border: 2px black solid;
+	width: 60px;
+	height: 60px;
+	margin-top: -100px;
+	font-size: 24pt;
+	font-family: arial;
+	align-content: center;
+}
+
+#firstNumberDisplayPresident{
+	margin-left: 150px;
+	text-align: center;
+
+}
+
+ .keys{
+	margin: 0;
+   background-color: black;
+   width: 50%;
+   height: 94%	;
+   border: 5px black solid;
+   margin: 1%;
+}
+
+.keys-align{
+	margin-left: 3%;
+	margin-top:5%;
+}
+
+#btn1{
+	color: white;
+	text-align: center;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btn2{
+	color: white;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btn3{
+	color: white;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+}
+
+#btn4{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btn5{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btn6{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+}
+
+
+#btn7{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btn8{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btn9{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+}
+
+#btn0{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 24pt;
+	height: 10%;
+	width: 25%;
+	margin-left: 36%;
+}
+
+#btnNull{
+	background-color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 18pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btnClear{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 18pt;
+	height: 10%;
+	width: 25%;
+	margin-right: 10%;
+}
+
+#btnConfirm{
+	color: white;
+	margin-top: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	border: 2px white solid;
+	font-size: 18pt;
+	height: 10%;
+	width: 25%;	
+}
+
+.displayEnd{
+	text-align: center;
+	font-size: 30pt;
+	font-family: lato;
+	margin-left: 1%;
+	margin-top: 25%;
+	display: none;
+
+}
+
+#photoLogoEnd{
+	margin-left: 22%;
+    margin-top: 17%;
+	margin-bottom: -22%;
+}
