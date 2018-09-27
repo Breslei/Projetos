@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta name="google" value="notranslate" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<title>Colocar algum título</title>
+</head>
+
+<body class="body" style='background-color: lightgray' onload="addDigit1();">
+
+  <div class="quadrado span-12">
+   <div class="display span-6">
+	   <div class="displayPresident">
+		<label class="photoCanditade" id="photoCanditade"></label>
+		   <p id="textPresident"><b>Eu voto para</b></p>
+			<p id="labelPresident" class="president">Presidente</p>
+		     <p id="labelNumberPresident" class="president">Número:</p>
+			  <table id="tableDigits">
+					<td class="digitNumber" id="firstNumberDisplayPresident"></td>
+					<td class="digitNumber" id="secondNumberDisplayPresident"></td>
+			  </table>
+			  
+				   <p id="labelNamePresident" class="president">Nome:</p>
+					<p id="NamePresident"> </p>
+					 <p id="labelPartyPresident" class="president">Partido:</p>
+					  <p id="PartyPresident"> </p>
+
+		</div>
+
+		<div class="displayPresidentEnd">
+			<label class="photoLogoEnd" id="photoLogoEnd"></label>
+			<p  class="displayEnd" id="labelDisplayEnd"></p>
+		</div>	
+
+   </div>	
+			
+			
+  <div class="keys span-6">
+	
+    <div class="keys-align">
+		
+	 <button type="button" class="btn btn-dark span-4 btn1" id="btn1" value="1" onclick="btnValue(this)">1</button>
+	
+	 <button type="button" class="btn btn-dark span-4 btn2" id="btn2" value="2" onclick="btnValue(this)">2</button>
+	
+	 <button type="button" class="btn btn-dark span-4 btn3" id="btn3" value="3" onclick="btnValue(this)">3</button>
+	 
+	 <br>
+	 
+	 <button type="button" class="btn btn-dark span-4 btn4" id="btn4" value="4" onclick="btnValue(this)">4</button>
+	
+	 <button type="button" class="btn btn-dark span-4 btn5" id="btn5" value="5" onclick="btnValue(this)">5</button>
+	 
+	 <button type="button" class="btn btn-dark span-4 btn6" id="btn6" value="6" onclick="btnValue(this)">6</button>
+	 
+	 <br>
+	
+	 <button type="button" class="btn btn-dark span-4 btn7" id="btn7" value="7" onclick="btnValue(this)">7</button>
+
+	 <button type="button" class="btn btn-dark span-4 btn8" id="btn8" value="8" onclick="btnValue(this)">8</button>
+	
+	 <button type="button" class="btn btn-dark span-4 btn9" id="btn9" value="9" onclick="btnValue(this)">9</button>
+	 
+	 <br>
+	 
+	 <button type="button" class="btn btn-dark span-4 btn0" id="btn0" value="0" onclick="btnValue(this)">0</button>
+	 
+	 <br>
+
+	 <button type="button" class="btn"  id="btnNull" value="null" onclick="btnNull()">Anular</button>	
+
+	 <button type="button" class="btn btn-danger" id="btnClear" value="clear" onclick="btnClear()">Limpar</button>
+	
+	 <button type="button" class="btn btn-success" id="btnConfirm" value="confirm" onclick="btnConfirm(this)">Confirmar</button>
+	 
+	 
+
+
+
+	</div>	
+   </div>	
+  </div>
+		
+<script src="js/KeysController.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/functions.js" type="text/javascript"></script>
+</body>
+</html>
